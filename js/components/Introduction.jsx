@@ -16,8 +16,8 @@ class Introduction extends React.Component {
   render() {
     return (
       <div className="schemaform-intro">
-        <FormTitle title="Create test form with U.S. Forms System"/>
-        <p>Scaffolding to get any form started!</p>
+        <FormTitle title="Annual Student Enrollment Form"/>
+        <p>For the school year 2017-2018</p>
         <ProgressButton
           onButtonClick={this.startForm}
           buttonText="Start Form"
